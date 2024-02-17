@@ -39,7 +39,7 @@ We provide config files for experiments. Before the source-free domain adaptatio
 ```bash
 CUDA_VISIBLE_DEVICES=0 python image_target_oh_vs.py --cfg "cfgs/[office-home/visda]/source.yaml" SETTING.S [0,1,2] SETTING.T [0,1,2]
 ```
-We also provide the pre-trained source models which can be [downloaded from here](https://drive.google.com/drive/folders/1NyFXBpeqjYU45DaXeIpNOzP4tjy2UF5T?usp=drive_link).
+We also provide the pre-trained source models which can be [downloaded from here](https://drive.google.com/drive/folders/1HKNfqdb1qWZjdmxAqP7m4wBohPBCyUBE?usp=drive_link).
 
 After obtaining the source models, put them under `${CKPT_DIR}` to and run :
 
